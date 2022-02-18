@@ -4,14 +4,22 @@
 */
 namespace CSharp10;
 
-    internal class Program
+internal class Program
+{
+    public static void Main(string[] args)
     {
-        public static void Main(string[] args)
+        int a = 5, b = 3;
+        int sum = Calculator.Add(a, b);
+
+        // 3. New way to check Null Parameter 
+        ArgumentNullException.ThrowIfNull(sum);
+        
+         Employee employee = new Employee();
+        
+        if(employee is Employee { Department.Location: "Multan" })
         {
-            int a = 5, b = 3;
-            int sum = Calculator.Add(a, b);
-            
-            // 3. New way to check Null Parameter 
-            ArgumentNullException.ThrowIfNull(sum);
+            Console.WriteLine(employee.Department.Location);
         }
+
     }
+}

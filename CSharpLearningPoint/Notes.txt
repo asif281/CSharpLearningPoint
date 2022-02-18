@@ -12,7 +12,7 @@ New Features
 		File-scoped Namespace helps us to write cleaner code by removing the horizontal and vertical space 
 		for namespace declaration
 	
-3. Extended property patters
+3. Extended property patterns
 		
 		It helps us to access nested property values in patterns by using a dot. token.
 
