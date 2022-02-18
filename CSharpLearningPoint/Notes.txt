@@ -1,0 +1,24 @@
+﻿
+New Features
+
+1. Global using directives and implicit global using directives
+
+		All Namespaces are removed from program.cs
+		We can define namespaces in a seperate file by using global keyword in Using.cs file
+
+
+2. File-scoped namespace
+
+		File-scoped Namespace helps us to write cleaner code by removing the horizontal and vertical space 
+		for namespace declaration
+	
+3. Extended property patters
+		
+		It helps us to access nested property values in patterns by using a dot. token.
+
+4. Null parameter Checking
+		
+		Null Parameter Checking enables us to check whether a specific parameter of a function is null or not.
+		if it is null, it automatically throws ArgumentNullException.
+
+Initilization and Assignment in same Destruction
